@@ -1,0 +1,23 @@
+.row2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: grid;
+    height: 7rem;
+    grid-template-columns: 30fr 40fr 20fr;
+    grid-template-areas: "name email c3";
+    background-color: darksalmon;
+}
+.name{ 
+background-color: darksalmon;
+grid-area: name;
+}
+.email {
+    background-color: darksalmon;
+    grid-area: email;
+}
+.buttonProfile{
+background-color: rgb(214, 207, 141);
+grid-area: button;
+height: 3rem;
+width: 6rem;
+}

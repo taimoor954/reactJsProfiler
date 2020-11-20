@@ -1,0 +1,12 @@
+.header {
+     display: grid;
+     grid-template-rows: 20vh;
+}
+.row1{
+    background-color: cornflowerblue;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
